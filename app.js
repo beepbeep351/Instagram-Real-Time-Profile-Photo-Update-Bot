@@ -88,8 +88,8 @@ var sayilar = ["./dakikalar/0.png",
   await page.waitForSelector('input[name="username"]'); 
 
 
-  await page.type('input[name="username"]', 'KULLANICI_ADI'); //'KULLANICI_ADINIZ '  KULLANICI_ADINIZ yazan kısma yani tırnakları silmeden tırnakların içerisine kullanıcı adınızı yazınız
-  await page.type('input[name="password"]', 'ŞİFRENİZ'); // Aynı şekilde SIFRENIZ kısmına da o şekilde boşluk bırakmayın
+  await page.type('input[name="username"]', ''); //'KULLANICI_ADINIZ '  KULLANICI_ADINIZ yazan kısma yani tırnakları silmeden tırnakların içerisine kullanıcı adınızı yazınız
+  await page.type('input[name="password"]', 'S'); // Aynı şekilde SIFRENIZ kısmına da o şekilde boşluk bırakmayın
 
 
   await page.click('button[type="submit"]');
